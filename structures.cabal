@@ -1,4 +1,4 @@
-cabal-version: 2.4
+cabal-version: 2.2
 name:
   structures
 version:
@@ -36,8 +36,14 @@ library
     src
   exposed-modules:
     Structures
+--    Structures.SuffixArray
   build-depends:
-    , base >= 4.10.1.0 && < 4.13
+    , base >= 4.10.1 && < 4.13
+    , bytestring >= 0.10 && < 0.11
+    , primitive >= 0.7 && < 0.8
+    , contiguous >= 0.4.0.1 && < 0.5
+    , primitive-sort >= 0.1 && < 0.2
+    , ghc-prim
   ghc-options:
     -Wall
     -O2

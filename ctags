@@ -1,3 +1,19 @@
-Structures	src/Structures.hs	1
-Structures.Heap	src/Structures/Heap.hs	1
-someFunc	src/Structures.hs	5
+IsString String8	./src/Structures/SuffixArray.chs	53
+Main	./benchmark/Main.hs	1
+Main	./test/Spec.hs	1
+Show String8	./src/Structures/SuffixArray.chs	35
+String8	./src/Structures/SuffixArray.chs	32
+Structures	./src/Structures.hs	1
+Structures.Heap	./src/Structures/Heap.hs	1
+Structures.SuffixArray	./src/Structures/SuffixArray.chs	14
+c2w	./src/Structures/SuffixArray.chs	44
+fromString	./src/Structures/SuffixArray.chs	54
+getString8	./src/Structures/SuffixArray.chs	32
+main	./benchmark/Main.hs	6
+main	./test/Spec.hs	3
+pack	./src/Structures/SuffixArray.chs	41
+primArrayToString	./src/Structures/SuffixArray.chs	50
+show	./src/Structures/SuffixArray.chs	36
+someFunc	./src/Structures.hs	5
+unpack	./src/Structures/SuffixArray.chs	38
+w2c	./src/Structures/SuffixArray.chs	47

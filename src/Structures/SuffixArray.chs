@@ -53,3 +53,4 @@ primArrayToString = map w2c . C.toList
 instance IsString String8 where
   fromString = String8 . C.fromList . map c2w
 
+foo = c2w

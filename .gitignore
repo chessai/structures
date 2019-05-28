@@ -49,5 +49,8 @@ tags
 .dir-locals.el
 TAGS
 
+# Nix
+result
+
 # other
 .DS_Store
